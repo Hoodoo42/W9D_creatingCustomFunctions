@@ -10,3 +10,16 @@ function willDoMath(num1, num2){
 }
 // calling the function, with the two set number values for the arguments
 willDoMath(2,6)
+
+
+// declaring a function that takes one string argument
+function checkLength(_word){
+//    an if statement that will check the length of the string argument and return true if 9 characters or more and false if less.
+    if(_word.length > 10){
+        return true;
+    }else{
+        return false;
+    }
+}
+// calling the function while giving it the value to take.
+checkLength(`Hippopotamus`);
